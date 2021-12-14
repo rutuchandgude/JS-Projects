@@ -1,0 +1,45 @@
+*{
+
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+   
+    width:900px;
+    border:3px solid purple;
+    margin:33px auto;
+}
+
+.item{
+    border:3px solid gray;
+    margin:12px 3px;
+    padding:12px 3px;
+    background:rgb(255, 228, 228);
+}
+
+#fruit{
+    float:left;
+    width:48%;
+}
+
+#computer{
+    float:right;
+    width:48%;
+}
+
+#stationary{
+    /* clear:left; */
+    clear:both;
+    width:100%;
+
+}
+
+p,h1{
+    /* text-align: right;
+    text-align: left;
+    text-align: center; */
+    text-align: justify;
+}

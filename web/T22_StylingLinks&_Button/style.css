@@ -1,0 +1,42 @@
+.container{
+    border:2px solid red;
+    background-color: rgb(209, 255, 209);
+    padding:34px;
+    margin:34px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:rgb(0, 0, 0);
+    background-color:sandybrown;
+    
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:visited{
+    background-color:yellow;
+}
+
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:bold;
+    background-color: rgb(231, 99, 99);
+    padding:6px;
+    border:none;
+    cursor:pointer;
+    font-size: 13px;
+    border-radius:4px;
+}
+
+.btn:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(222, 151, 240);
+    border:2px solid black;
+}
