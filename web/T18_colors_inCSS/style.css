@@ -1,0 +1,16 @@
+
+/* color by name */
+#firstPara{
+color:brown;
+}
+
+/* color by rgb */
+#secondPara{
+color:rgb(87, 233, 30);
+}
+
+/* color by hex */
+#thirdPara{
+color:#234557;
+background-color:#79cffd;
+}

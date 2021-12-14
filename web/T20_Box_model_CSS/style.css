@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgb(169, 246, 223);
+}
+
+.container{
+    background-color: rgb(149, 201, 247);
+    border:3px solid rgba(179, 14, 143, 0.548);
+    /* padding:79px;
+    margin:34px; */
+
+   /* padding-top:78px;
+   padding-right: 34px;
+   padding-bottom:79px;
+   padding-left:34px; */
+
+   /* padding:23px 56px 6px 78px; */
+    /*padding/margin = top right bottom left;*/
+
+   /* padding:34px 19px; */
+    /* padding:y(top/bottom) x(left/right); */
+
+   padding:34px 19px;
+   margin:14px 19px;
+   border-radius:23px;
+   width:533px;
+  
+}

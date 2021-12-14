@@ -1,0 +1,14 @@
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size:23px;
+     /* 1 pixel is 1/96 of an inch */
+     line-height:1.2em;
+  
+}
+
+span{
+    font-weight: bold;
+    font-style:italic;
+
+}

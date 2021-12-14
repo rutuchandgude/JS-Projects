@@ -1,0 +1,39 @@
+#firstPara{
+    background-color:red;
+    height:100px;
+    width:444px;
+    border:4px solid green;
+    /* border-width:4px;
+    border-color:green;
+    border-style:solid; */
+    border-radius:11px;
+}
+
+#secondPara{
+    background-color:rgb(57, 243, 88);
+    height:100px;
+    width:455px;
+    border-top:2px solid violet;
+    border-right:2px solid red;
+    border-bottom: 2px solid purple;
+    border-left:2px solid rgba(0, 255, 170, 0.623);
+    
+    border-top-left-radius:12px ;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 8px;
+
+}
+
+
+#thirdPara{
+      height:500px;
+      width:455px;
+      background-image:url('rutuja.jpeg');
+      border:2px solid red;
+      background-repeat:no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+      /* background-position:129px 133px; */
+      background-position: center center;
+      /* background-position:top center; */
+
+}
