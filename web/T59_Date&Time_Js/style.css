@@ -1,0 +1,12 @@
+.container{
+    font-size: 23px;
+    background-color: blanchedalmond;
+    border:2px solid gray;
+    padding:34px;
+    margin:4px;
+    text-align:center;
+}
+
+#time{
+    font-weight:bold;
+}
