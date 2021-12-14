@@ -1,0 +1,17 @@
+.container{
+    display:grid;
+    grid-gap:1rem;
+    /* grid-template-columns:112px 112px 112px; */
+    /* grid-template-columns:1fr 1fr 1fr; */
+
+    /*--- This is good for responsiveness ---*/
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    /* justify-content: center; */
+}
+
+.box{
+    border:2px solid black;
+    background-color:rgb(255, 207, 74);
+    padding:34px;
+ 
+}
