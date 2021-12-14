@@ -1,0 +1,45 @@
+.container{
+    display:block;
+    width:233px;
+    margin:auto;
+}
+
+input{
+    display:block;
+}
+
+/* Pseudo selector */
+input[type='text']{
+    padding: 23px;
+    border:2px solid red;
+}
+
+a[target]{
+    font-size:34;
+    color:violet;
+}
+
+a[target='_self']{
+    font: 15;
+    color:rgb(93, 93, 194);
+}
+
+/* This will apply css for third child */
+li:nth-child(3){
+    color:cyan;
+}
+
+
+li:nth-child(2n+0){
+    color:red;
+}
+
+/* Odd Child */
+li:nth-child(odd){
+    background-color:rgb(248, 248, 131);
+}
+
+/* Even Child */
+li:nth-child(even){
+    background-color:rgb(176, 246, 246);
+}

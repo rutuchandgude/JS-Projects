@@ -1,0 +1,51 @@
+/* website:Unsplash Source for background images  */
+
+body{
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:white;
+}
+
+.navigation{
+display:flex;
+}
+
+li{
+    list-style:none;
+    padding:20px 23px;
+}
+
+section{
+    height:344px;
+    /* border:2px solid red; */
+    margin:3px 23px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+h1{
+    font-size:4rem;
+}
+
+p{
+    text-align:center;
+}
+
+/* section::before{
+    content:"This is a content";
+} */
+
+header::before{
+    background:url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity:0.3;    
+}

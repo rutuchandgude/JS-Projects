@@ -1,0 +1,67 @@
+.container{
+    height:544px;
+    width:100%;
+    border:2px solid black;
+    /* initial container as flex */
+    display:flex;
+
+    /* Flex: properties for flex container */
+
+    /* (default value of flex-direction:is row) */
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    flex-wrap: wrap;   /* default flex-wap value is no-wrap */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow:row-reverse wrap; */
+
+
+    justify-content:center;
+    /* justify-content:space-between; */
+    /* justify-content:space-evenly; */
+    /* justify-content:space-around; */
+ 
+     /* vertically center */
+     align-items: center;
+     /* align-items:flex-end; */
+     /* align-items:flex-start; */
+     /* align-items:stretch; */
+  
+
+}
+
+.item{
+    height:200px;
+    width:200px;
+    background-color:tomato;
+    border:2px solid green;
+    margin:10px;
+    padding:3px;
+}
+
+#item-1{
+    /* Flex properties for a flex item */
+    /* Higher the order, later it shows up in the container(order will change) */
+    order:2;
+
+    flex-grow:2;
+}
+
+#item-2{
+    /* flex-grow:3;
+    flex-shrink:3; */
+
+    /* when -ms-flex-direction: is set to row flex-basis:will control width */
+    /* when -ms-flex-direction: is set to column flex-basis:will control height */
+    flex-basis:320px;
+}
+
+#item-3{
+  /* flex:2 2 230px; */
+  /* align-self: flex-start; */
+  /* align-self: flex-end; */
+  /* align-self: center; */
+}

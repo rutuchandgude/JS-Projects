@@ -1,0 +1,33 @@
+h1{
+    background-color:red;
+    color:black;
+    font-weight:bold;
+}
+
+/* div p{
+color:yellow;
+background-color:green;
+font-weight:bold;
+} */
+
+/* If p is contained by any li which contained by div */
+/* div li p{
+color:yellow;
+background-color:green;
+font-weight:bold;
+} */
+
+
+
+/*If p is right inside div then only this properties will be applied */
+/* div > p{
+    color:yellow;
+    background-color:green;
+    font-weight:bold;
+} */
+
+/* If p is right after div i.e p is the next sibling of div */
+/* div + p{
+    color:white;
+    background-color: rgb(248, 115, 144);
+} */
