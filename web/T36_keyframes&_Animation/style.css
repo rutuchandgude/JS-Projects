@@ -1,0 +1,56 @@
+.container{
+    background-color: yellowgreen;
+}
+
+.box{
+    background-color:green;
+    width:250px;
+    height:250px;
+    position:relative;
+    /* animation-name:Rutuja; */
+    animation-name:Rutuja1;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function:ease-in-out; */
+    /* animation-delay:3s; */
+
+
+    (Animation Shorten)
+   
+}
+
+@keyframes Rutuja{
+    from{
+        width:200px;
+    }
+
+    to{
+        width:1400px;
+    }
+}
+
+
+
+@keyframes Rutuja1{
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top:250px;
+        left:0px;
+
+    }
+    75%{
+        top:250px;
+        left:250px;
+
+    }
+    100%{
+
+        top:0px;
+        left:250px;
+    }
+}
