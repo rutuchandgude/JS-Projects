@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+body{
+    font-family: 'Road Rage', cursive;
+   
+}
+
+:root{
+    --primary-color:red;
+    --secondary-color:blue;
+}
+
+button{
+    margin:10px;
+    cursor:pointer;
+}
+
+#primary-btn{
+    background-color:var(--primary-color);
+    color:white;
+    padding:10px 30px;
+    border:solid 0.2rem var(--secondary-color)
+}
+
+#secondary-btn{
+    background-color:-white;
+    color:var(--secondary-color);
+    padding:10px 30px;
+    border:solid 0.2rem var(--primary-color)
+}
